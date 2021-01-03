@@ -1,0 +1,396 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background: white;
+	color:#000;
+	font-family: 'Lato', sans-serif;
+	font-weight : 400;
+
+}
+
+       /* header css start*/
+.header-wrapper{
+	background-color:#5451c1;
+	width: 100%;
+}
+
+.main-header{
+	background-color:#5451c1;
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header-left{
+	width: 25%;
+	float: left;
+}
+
+.logo{
+	padding:16px 0px;
+}
+.header-right{
+	width: 75%;
+	float: right;
+}
+.main-manu{
+	float: right;
+}
+.main-manu ul li{
+	list-style: none;
+	float:left;
+}
+
+.main-manu ul li a{
+	text-decoration: none;
+    display: inline-block;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px;
+    color:#fff;
+    font-size: 18px;
+
+}
+.main-manu ul li.active a,
+.main-manu ul li a:hover{
+	text-decoration: underline;
+	color: orange;
+
+}
+     /* header css end*/
+
+     /* banner css start*/
+.banner-wrapper{
+	width: 100%;
+	background-color: #5451c1;
+}
+.main-banner{
+	background-color:#5451c1;
+	width:1170px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+.text-area{
+	width: 50%;
+	float: left;
+	color: white;
+}
+
+.text-area h1{
+	font-size: 60px;
+	padding-top: 49px;
+	padding-bottom: 76px;
+}
+
+.text-area p{
+	padding-bottom: 79px;
+	font-size: 19px;
+}
+
+.banner-img{
+	width: 50%;
+	float: left;
+	margin-top: 48px;
+}
+
+.banner-img img{
+	float: right;
+}
+
+#button-1{
+	padding:12px;
+    width:200px;
+    height:50px;
+    color:white;
+    background-color:#5451c1;
+    text-transform:uppercase;
+    border:2px solid white;
+    margin-right:43px;
+    margin-bottom:69px;
+}
+
+#button-2{
+	padding: 12px;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    color: white;
+    background: none;
+    background-color: #49dcb1;
+    border-radius: 2px;
+    margin-bottom: 69px;
+    margin-left: 43px;
+}
+
+	/* banner css End*/
+
+/*Services css start*/
+
+.service-wrepper{
+	background-color:#f9faff;
+	width: 100%;
+}
+
+.service{
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #f9faff;
+	overflow: hidden;
+	padding-top:100px;
+
+}
+.text-service h1{
+	text-align: center;
+    padding-bottom: 17px;
+    font-weight: bold;
+
+}
+.text-service p{
+	text-align: center;
+	font-size: 18px;
+}
+.service-img{
+	width: 100%;
+	padding-top:75px;
+
+}
+.s-1{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	
+}
+.s-1 h2{
+	padding: 15px 0px;
+}
+..s-1 p{
+	font-size: 18px;
+}
+.s-2{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	margin-bottom: 69px;
+	
+}
+.s-2 h2{
+	padding: 15px 0px;
+}
+
+
+#service-button{
+	background: none;
+	margin-top: 65px;
+	width: 200px;
+    height: 50px;
+    padding: 11px;
+    border: 1px solid white;
+    background-color: #49dcb1;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+/*Services css End*/
+
+/*about start css*/
+.about-wrepper{
+	width: 100%;
+	margin: 100px 0px;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.about{
+	width: 1170px;
+	margin: 0 auto;
+	background-color:#ffffff;
+	overflow: hidden;
+}
+.about-text{
+	width: 50%;
+	float: left;
+}
+.about-img{
+	width: 50%;
+	float: left;
+}
+.about-img img{
+	padding-bottom: 10px;
+}
+.about-text h2{
+	text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 31px;
+}
+.about-text p{
+	font-size: 17px;
+    padding-bottom: 47px;
+}
+#about-buttom{
+	background: none;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    padding: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #49dcb1;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+/*about end css*/
+
+.news-wrepper{
+	background-color:#f9faff;
+	width: 100%;
+}
+.news{
+	width: 1170px;
+	margin: 0 auto;
+	background-color: #f9faff;
+	overflow: hidden;
+	padding: 100px 0px;
+}
+.news-service h1{
+	text-align: center;
+    padding-bottom: 17px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.news-service p{
+	text-align: center;
+	font-size: 18px;
+}
+.news-img{
+	width: 100%;
+	padding-top:75px;
+}
+
+.news-blog{
+	float: left;
+	border: 1px solid #cccccc;
+	padding-bottom: 26px;
+}
+.news-blog-p{
+	float: left;
+	border: 1px solid #cccccc;
+	margin: 0px 30px;
+	padding-bottom: 26px;
+}
+.news-blog-p h3,
+.news-blog h3{
+	padding-top: 25px;
+    padding-left: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 16px;
+} 
+.news-blog-p h4,
+.news-blog h4{
+		padding-left: 28px;
+		font-size: 18px;
+		font-style:italic;
+		padding-bottom: 18px;
+}
+.news-blog-p p,
+.news-blog p{
+	padding-left: 28px;
+    padding-top: 4px;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+.news-blog-p p a,
+.news-blog p a{
+	color:#49dcb1;
+}
+
+ /*contact css start*/
+
+.contact-wrepper{
+	width: 100%;
+	background: #fff;
+}
+.main-contact{
+	max-width:1170px;
+	margin: 0 auto;
+	padding: 100px 0px;
+}
+.main-contact h1{
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 24px;
+}
+.main-contact p{
+	text-align: center;
+	font-size: 18px;
+}
+.mid-contact{
+	padding-top:74px;
+}
+.contact-left{
+	float: left;
+	width: 570px;
+	text-align: center;
+}
+.contact-left img{
+	padding-top:80px;
+}
+.contact-right{
+	float: left;
+	width: 570px;
+}
+.from input{
+	width: 100%;
+    height: 59px;
+    margin: 15px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0px 12px;
+
+}
+#ms{
+	 height: 138px;
+}
+#submit{
+	    width: 200px;
+    height: 60px;
+    background: none;
+    border: none;
+    border-radius: 1px;
+    background-color: #49dcb1;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+/*contact css end*/
+
+/*footer css start*/
+
+.footer{
+	width: 100%;
+	float: left;
+	background-color: #5451c1;
+	padding: 35px 0px;
+    font-size: 18px;
+    color: #fff;
+}
+.footer p{
+	text-align: center;
+
+}
+/*footer css end*/
